@@ -40,6 +40,11 @@ public class StudentManager implements StudentService {
     }
 
     @Override
+    public Result update(Student student) {
+        return null;
+    }
+
+    @Override
     public DataResult<Student> getById(Long studentId) {
         return studentDao.findById(studentId)
                 .<DataResult<Student>>map(student -> new SuccessDataResult<>(student, "Student retrieved successfully."))

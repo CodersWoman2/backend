@@ -2,10 +2,11 @@ package CodersWomen.studySmart.entities.concretes;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+
 
 @Entity
 @Data
