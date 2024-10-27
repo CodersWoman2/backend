@@ -2,7 +2,7 @@ package CodersWomen.studySmart.entities.concretes;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
 
 import java.util.ArrayList;
 import java.util.List;

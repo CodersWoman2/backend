@@ -1,8 +1,10 @@
 package CodersWomen.studySmart.entities.concretes;
 
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
+import lombok.Data;
 
+
+@Data
 @Entity
 @Table(name = "users")
 public class User {

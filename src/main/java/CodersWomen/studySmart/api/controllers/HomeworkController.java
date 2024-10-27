@@ -5,13 +5,14 @@ import CodersWomen.studySmart.core.utilities.results.DataResult;
 import CodersWomen.studySmart.core.utilities.results.ErrorDataResult;
 import CodersWomen.studySmart.core.utilities.results.Result;
 import CodersWomen.studySmart.entities.concretes.Homework;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
