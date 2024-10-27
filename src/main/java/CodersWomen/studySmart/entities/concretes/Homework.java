@@ -32,6 +32,15 @@ public class Homework {
     @JoinColumn(name = "student_id", nullable = false)
     private Student student;
 
+    @OneToOne
+    @JoinColumn(name = "status_id")
+    private Status status;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
+
+    @OneToOne
+    @JoinColumn(name = "priority_id")
+    private Priority priority;
 }
-
