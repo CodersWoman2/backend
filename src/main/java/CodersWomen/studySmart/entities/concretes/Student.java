@@ -1,13 +1,17 @@
 package CodersWomen.studySmart.entities.concretes;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import jakarta.persistence.Id;
+import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "students")
 public class Student {
 
