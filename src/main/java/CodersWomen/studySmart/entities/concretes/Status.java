@@ -2,10 +2,14 @@ package CodersWomen.studySmart.entities.concretes;
 
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "statuses")
 public class Status {
 
